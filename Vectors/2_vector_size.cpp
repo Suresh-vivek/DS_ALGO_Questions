@@ -21,4 +21,11 @@ int main(){
     myints.pop_back();
     cout <<" size is : "<<myints.size()<<endl;  // size is 19
     
+    // Maximum size
+    cout <<"maximum  size is : "<<myints.max_size()<<endl;
+    
+    // capacity
+    cout <<"Capacity is : "<<myints.capacity()<<endl;
+    
+
 }
